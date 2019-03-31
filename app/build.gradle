@@ -60,4 +60,8 @@ dependencies {
     implementation 'jp.co.cyberagent.android:gpuimage:2.0.3'
     // AndroidUtilCode: AppUtils
     implementation 'com.blankj:utilcode:1.14.3'
+
+    // Butterknife
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 }
