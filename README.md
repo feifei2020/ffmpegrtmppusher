@@ -1,6 +1,30 @@
 # ffmpegrtmppusher
 基于ffmpeg的直播推流器，超级稳定，经过长时间稳定性测试，超低延时，可用于手机，电视，嵌入式等直播App及设备。
+
+开发环境 安卓 android
+android studio 3.2 
+
+工程加入如下基础模块：
+1、摄像头数据推流，音频数据推流，接口简单，几行代码可实现直播推流，及监控功能。
+
+2、权限请求。
+
+3、内有一套编译好的ffmpeg so 库可供NDK开发使用。
+
+4、集成了Camera2的使用。
+
+5、集成GPU美颜模块，几行代码实现集成gpu，让你的直播都是美美哒。
+
+6、提供了YUV数据的各种转换功能，nv21,nv12,yuv420,yuv420sp等等。
+
+7、还可在此基础上扩展帖图，水印等功能，接口都有接供，几行代码的事儿。
+
+8、还有很多。。。自己下载看吧。
+
+
+
 调用代码如下:
+
 package rtmppusher.demo.com.rtmppusher;
 
 import android.app.Activity;
